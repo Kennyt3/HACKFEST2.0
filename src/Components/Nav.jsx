@@ -16,6 +16,7 @@ const Nav = () => {
               w='90%'
               mx='auto'
               borderColor={isActive ? "#3981EF" : "transparent"}
+              bgColor={isActive ? "#3981EF" : "transparent"}
             />
           </>
         )}
@@ -33,6 +34,7 @@ const Nav = () => {
               w='90%'
               mx='auto'
               borderColor={isActive ? "#3981EF" : "transparent"}
+              bgColor={isActive ? "#3981EF" : "transparent"}
             />
           </>
         )}
@@ -50,6 +52,7 @@ const Nav = () => {
               w='90%'
               mx='auto'
               borderColor={isActive ? "#3981EF" : "transparent"}
+              bgColor={isActive ? "#3981EF" : "transparent"}
             />
           </>
         )}
@@ -67,6 +70,7 @@ const Nav = () => {
               w='90%'
               mx='auto'
               borderColor={isActive ? "#3981EF" : "transparent"}
+              bgColor={isActive ? "#3981EF" : "transparent"}
             />
           </>
         )}
@@ -84,6 +88,7 @@ const Nav = () => {
               w='90%'
               mx='auto'
               borderColor={isActive ? "#3981EF" : "transparent"}
+              bgColor={isActive ? "#3981EF" : "transparent"}
             />
           </>
         )}

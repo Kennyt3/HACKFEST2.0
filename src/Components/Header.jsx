@@ -8,6 +8,11 @@ const Header = () => {
 
   return (
     <HStack
+      maxW='1440px'
+      mx='auto'
+      top='0'
+      pos='fixed'
+      zIndex={2000}
       w='full'
       bgColor='#FFFFFF'
       boxShadow='sm'

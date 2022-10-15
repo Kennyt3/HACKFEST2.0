@@ -8,7 +8,7 @@ import Login from "./pages/Login";
 
 function App() {
   return (
-    <Stack w='full' maxW='1440px'>
+    <Box w='full' maxW='1440px' h='100vh' mx='auto' pt='20' >
       <Routes>
         <Route index element={<Header />} />
         <Route path='/blog' element={<Header />} />
@@ -25,7 +25,7 @@ function App() {
         <Route path='/register' element={<Register />} />
         <Route path='/login' element={<Login />} />
       </Routes>
-    </Stack>
+    </Box>
   );
 }
 

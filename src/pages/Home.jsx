@@ -18,14 +18,13 @@ import s5 from "../assets/s5.png";
 const Home = () => {
   return (
     <>
-      <Stack p='10'>
-        <Flex w='full' align='center' >
+      <Stack p='10' h='full'>
+        <Flex w='full' h='full' align='center'>
           <Box
             w='full'
             fontSize='55px'
             lineHeight='87px'
             letterSpacing='1'
-            maxW='524px'
             px='7'>
             <Heading fontSize='inherit' fontWeight='700' lineHeight='inherit'>
               We Are Ready to
@@ -74,7 +73,7 @@ const Home = () => {
           </Box>
         </Flex>
         {/* partners */}
-        <Flex w='full' justify='space-between' px='5' pt='10' >
+        <Flex w='full' justify='space-between' px='5' pt='10'>
           <Image src={s11} />
           <Image src={s21} />
           <Image src={s31} />
