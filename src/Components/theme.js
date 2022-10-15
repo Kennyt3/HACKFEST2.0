@@ -7,8 +7,8 @@ const config = {
 
 const theme = extendTheme({
   fonts: {
-    heading: `'Space Grotesk', sans-serif`,
-    body: `'Space Grotesk', sans-serif`,
+    heading: `'Open Sans', sans-serif`,
+    body: `'Open Sans', sans-serif`,
   },
   config,
   components: {
@@ -23,13 +23,13 @@ const theme = extendTheme({
       baseStyle: {
         borderRadius: 10,
         fontSize: "13px",
-        fontWeight: 500,
+        fontWeight: 700,
       },
       defaultProps: {
-        size: "sm", // default is md
-        variant: "ghost", // default is solid
+        // size: "sm", // default is md
+        // variant: "ghost", // default is solid
         fontSize: "13px",
-        fontWeight: 500,
+        fontWeight: 700,
         // colorScheme: 'green', // default is gray
       },
     },
@@ -88,6 +88,7 @@ const theme = extendTheme({
     global: {
       body: {
         "fontSize": "15px",
+        "fontWeight": "600",
         "&::-webkit-scrollbar": {
           width: "6px",
           backgroundColor: "transparent",
@@ -98,7 +99,7 @@ const theme = extendTheme({
           backgroundColor: "gray",
           borderRadius: "10px",
         },
-        "bg": "#F1F4F8",
+        "bg": "whitesmoke",
       },
     },
   },

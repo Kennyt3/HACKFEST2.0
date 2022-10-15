@@ -5,6 +5,7 @@ import "./index.css";
 import theme from "./Components/theme";
 import { BrowserRouter as Router } from "react-router-dom";
 import { ChakraProvider } from "@chakra-ui/react";
+import "@fontsource/open-sans"
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
