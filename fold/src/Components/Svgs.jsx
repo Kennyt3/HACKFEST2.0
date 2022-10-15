@@ -1,0 +1,81 @@
+import { Icon } from "@chakra-ui/react";
+
+export const BrandLogo = (props) => (
+  <Icon
+    width='65'
+    height='57'
+    viewBox='0 0 65 57'
+    // strokeWidth={1.5}
+    // stroke='currentColor'
+    fill='none'
+    fillRule='evenodd'
+    clipRule='evenodd'
+    {...props}>
+    <path
+      fill-rule='evenodd'
+      clip-rule='evenodd'
+      d='M0 3.59338C0 2.33367 1.32284 1.51198 2.45215 2.07031L21.1078 11.2936V53.4509C21.1078 55.3583 19.0894 56.5898 17.3933 55.7173L0.921849 47.2441C0.355793 46.953 0 46.3698 0 45.7332V3.59338Z'
+      fill='url(#paint0_linear_35_25)'
+    />
+    <path
+      fill-rule='evenodd'
+      clip-rule='evenodd'
+      d='M21.1003 11.2973L42.6921 46.8882L21.1003 35.9893V11.2973Z'
+      fill='url(#paint1_linear_35_25)'
+    />
+    <path
+      fill-rule='evenodd'
+      clip-rule='evenodd'
+      d='M42.2232 1.7512C42.6932 1.00512 43.6559 0.742612 44.4396 1.14683L64.5542 11.5212L42.6686 46.8685L28.5102 23.519L42.2232 1.7512Z'
+      fill='url(#paint2_linear_35_25)'
+    />
+    <path
+      fill-rule='evenodd'
+      clip-rule='evenodd'
+      d='M42.6743 46.8674L64.5509 11.5148L64.684 51.1391C64.6947 54.3175 61.3389 56.3812 58.5072 54.9378L42.6743 46.8674Z'
+      fill='url(#paint3_linear_35_25)'
+    />
+    <defs>
+      <linearGradient
+        id='paint0_linear_35_25'
+        x1='-1.64312'
+        y1='-19.3278'
+        x2='46.8001'
+        y2='-17.2947'
+        gradientUnits='userSpaceOnUse'>
+        <stop stop-color='#3A8EF6' />
+        <stop offset='1' stop-color='#6F3AFA' />
+      </linearGradient>
+      <linearGradient
+        id='paint1_linear_35_25'
+        x1='26.4982'
+        y1='7.34273'
+        x2='65.0845'
+        y2='40.8745'
+        gradientUnits='userSpaceOnUse'>
+        <stop stop-color='#3D93FF' />
+        <stop offset='1' stop-color='#65A8FB' />
+      </linearGradient>
+      <linearGradient
+        id='paint2_linear_35_25'
+        x1='25.7044'
+        y1='-17.0467'
+        x2='107.986'
+        y2='-10.0967'
+        gradientUnits='userSpaceOnUse'>
+        <stop stop-color='#3A8EF6' />
+        <stop offset='1' stop-color='#6F3AFA' />
+      </linearGradient>
+      <linearGradient
+        id='paint3_linear_35_25'
+        x1='48.1767'
+        y1='6.63795'
+        x2='93.7169'
+        y2='39.3494'
+        gradientUnits='userSpaceOnUse'>
+        <stop stop-color='#65A8FB' />
+        <stop offset='1' stop-color='#65A8FB' />
+      </linearGradient>
+    </defs>
+  </Icon>
+);

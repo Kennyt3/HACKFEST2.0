@@ -14,12 +14,11 @@ import s21 from "../assets/s2 1.png";
 import s31 from "../assets/s3 1.png";
 import s41 from "../assets/s4 1.png";
 import s5 from "../assets/s5.png";
-import maskimg from "../assets/maskimg.png";
 
 const Home = () => {
   return (
     <>
-      <Stack p='10' h='fit-content' >
+      <Stack p='10' h='full'>
         <Flex w='full' h='full' align='center'>
           <Box
             w='full'
@@ -41,7 +40,7 @@ const Home = () => {
               Problems
             </Heading>
             <Text fontSize='24px' fontWeight='400' lineHeight='33px'>
-              Reach out to professional practitioners for your health using
+              Reach out to professional practisionals for your health using
               Healthy me, saving you of time and cost.
             </Text>
             <HStack spacing='10' py='5'>
@@ -81,50 +80,13 @@ const Home = () => {
           <Image src={s41} />
           <Image src={s5} />
         </Flex>
-        <Flex w='full' h='full'  >            
-            <Box w='full' position='relative'>
-            <Image src={maskimg} />
-            </Box>
-            <Box w='full' flexDirection='column' >
-              <Box
-              w='fitcontent'
-              fontSize='64px'
-              lineHeight='87px'
-              letterSpacing='1px'
-              fontWeight='700'
-              px='7'
-              >
-                <Heading fontSize='inherit'
-                lineHeight='inherit'
-                letterSpacing='inherit'>Access quality </Heading>
-                <Heading fontSize='inherit'
-                lineHeight='inherit'
-                letterSpacing='inherit'> healthcare within </Heading>
-                <Heading fontSize='inherit'
-                lineHeight='inherit'
-                letterSpacing='inherit'>minutes</Heading>
-              </Box>
-              <Box 
-              w='fitcontent'
-              fontFamily='Open Sans'
-              fontSize='24px'
-              fontWeight='400'
-              lineHeight='33px'>
-                <Text
-                fontSize='inherit'
-                lineHeight='inherit'
-                letterSpacing='inherit'>
-                  We know time is of the essence and with DRO Health you can see a doctor within 20 minutes. 
-                  </Text>
-                  <Text 
-                fontSize='inherit'
-                lineHeight='inherit'
-                letterSpacing='inherit'>
-                  Your notes, prescriptions and test requests are available after the consultation... and you can ask questions after the consultation for free!
-                </Text>
-              </Box>
-            </Box>
-        </Flex>   
+        <Flex w='full' align='center'>
+          <Box>
+            <Heading>
+              
+            </Heading>
+          </Box>
+        </Flex>
       </Stack>
     </>
   );
