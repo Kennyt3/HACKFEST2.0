@@ -1,8 +1,11 @@
 import { Flex, Box, Heading, HStack, Button } from "@chakra-ui/react";
 import { BrandLogo } from "./Svgs";
 import Nav from "./Nav";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
+
   return (
     <HStack
       w='full'
@@ -22,7 +25,12 @@ const Header = () => {
         Healthy Me
       </Heading>
       <Nav />
-      <Button bgColor='#3981EF' rounded='7px' color='white' w='153px'>
+      <Button
+        bgColor='#3981EF'
+        rounded='7px'
+        color='white'
+        w='153px'
+        onClick={() => navigate("/register")}>
         Register
       </Button>
     </HStack>

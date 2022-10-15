@@ -22,14 +22,14 @@ const theme = extendTheme({
     Button: {
       baseStyle: {
         borderRadius: 10,
-        fontSize: "13px",
-        fontWeight: 700,
+        fontSize: "20px",
+        fontWeight: 800,
       },
       defaultProps: {
         // size: "sm", // default is md
         // variant: "ghost", // default is solid
-        fontSize: "13px",
-        fontWeight: 700,
+        fontSize: "20px",
+        fontWeight: 800,
         // colorScheme: 'green', // default is gray
       },
     },
@@ -66,7 +66,7 @@ const theme = extendTheme({
         control: {
           border: "1px",
           borderColor: "gray.300",
-          borderRadius: "50%",
+          borderRadius: "40%",
           _checked: {
             bg: "rgb(121, 62, 245,0.4)",
             // opacity: "0.4",
