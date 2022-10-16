@@ -4,6 +4,7 @@ import {
   Heading,
   Stack,
   Image,
+  Link,
   HStack,
   Text,
 } from "@chakra-ui/react";
@@ -15,6 +16,12 @@ import s31 from "../assets/s3 1.png";
 import s41 from "../assets/s4 1.png";
 import s5 from "../assets/s5.png";
 import maskimg from "../assets/maskimg.png";
+// import Group114 from "../assets/Group114.png";
+// import Group138 from "../assets/Group138.png";
+// import Group137 from "../assets/Group137.png";
+import ImageSlider from "../Components/ImageSlider"
+import { SlideData } from "../Components/SlideData";
+
 
 const Home = () => {
   return (
@@ -81,50 +88,120 @@ const Home = () => {
           <Image src={s41} />
           <Image src={s5} />
         </Flex>
-        <Flex w='full' h='full'  >            
-            <Box w='full' position='relative'>
-            <Image src={maskimg} />
+        <Flex w='full' h='full' >            
+            <Box w='full' position='relative' mr='30px' mt='20px'>
+            <Image  src={maskimg} />
             </Box>
-            <Box w='full' flexDirection='column' >
+            <Box flexDirection='column'>
               <Box
               w='fitcontent'
               fontSize='64px'
               lineHeight='87px'
               letterSpacing='1px'
               fontWeight='700'
-              px='7'
+              mt='20px'
+              color='rgba(23, 32, 72, 1)'             
               >
                 <Heading fontSize='inherit'
                 lineHeight='inherit'
-                letterSpacing='inherit'>Access quality </Heading>
+                letterSpacing='inherit' fontWeight='700' color='inherit'>Access quality </Heading>
                 <Heading fontSize='inherit'
                 lineHeight='inherit'
-                letterSpacing='inherit'> healthcare within </Heading>
+                letterSpacing='inherit' fontWeight='700' color='inherit'> healthcare within </Heading>
                 <Heading fontSize='inherit'
                 lineHeight='inherit'
-                letterSpacing='inherit'>minutes</Heading>
+                letterSpacing='inherit' fontWeight='700' color='inherit'>minutes</Heading>
               </Box>
               <Box 
               w='fitcontent'
-              fontFamily='Open Sans'
               fontSize='24px'
               fontWeight='400'
-              lineHeight='33px'>
+              lineHeight='33px'
+              letterSpacing='1px'
+              mt='64px'
+              color='rgba(51, 51, 51, 1)'>
                 <Text
                 fontSize='inherit'
                 lineHeight='inherit'
-                letterSpacing='inherit'>
-                  We know time is of the essence and with DRO Health you can see a doctor within 20 minutes. 
-                  </Text>
-                  <Text 
+                letterSpacing='inherit'
+                fontWeight='400' color='inherit'>
+                  We know time is of the essence and with Healthyme you can see a doctor within 20 minutes. 
+                </Text> <br />
+                <Text 
                 fontSize='inherit'
                 lineHeight='inherit'
-                letterSpacing='inherit'>
+                letterSpacing='inherit'
+                fontWeight='400' color='inherit'>
                   Your notes, prescriptions and test requests are available after the consultation... and you can ask questions after the consultation for free!
                 </Text>
               </Box>
             </Box>
-        </Flex>   
+        </Flex>
+        <Box>
+          <Box 
+          mt='40px'
+          fontSize='40px'
+          lineHeight='54px'
+          letterSpacing='1px'
+          fontWeight='700'
+          
+          textAlign='center'
+          
+          >
+            <Heading fontSize='inherit'
+            fontWeight='700'
+            lineHeight='inherit'
+            letterSpacing='inherit' color='rgba(23, 32, 72, 1)'>
+              Our <span style={{ color: "rgba(57, 129, 239, 1)" }}>Main Services</span>
+            </Heading>
+            <Heading
+            fontSize='inherit'
+            fontWeight='700'
+            lineHeight='inherit'
+            letterSpacing='inherit' color='rgba(23, 32, 72, 1)'>Categories</Heading>
+          </Box>
+          
+          {/* <Box>
+            
+              <Box>
+              
+                <Box>
+                  <Link href="#">
+                  <Image src={Group114}>
+                  </Image>
+                  </Link>
+                </Box>
+              </Box>
+              <Box>
+              
+                <Box>
+                  <Link href="#">
+                  <Image src={Group138}>
+                  </Image>
+                  </Link>
+                </Box>
+              </Box>
+              <Box>
+                
+                <Box>
+                  <Link href="#">
+                  <Image src={Group137}>
+                  </Image>
+                  </Link>
+                </Box>
+              </Box>
+            </Box>
+            <Box> */}
+              {/* <span onMouseOver={{bg:"blue"}} o style={{color: "black", width:"15px", height:"15px", cursor:"pointer", margin:"0 2px", display:"inline-block", background:"#bbb",  borderRadius:"50%" }}></span>
+              <span onMouseOver={{bg:"blue"}} o style={{color: "black", width:"15px", height:"15px", cursor:"pointer", margin:"0 2px", display:"inline-block", background:"#bbb",  borderRadius:"50%" }}></span>
+              <span onMouseOver={{bg:"blue"}} o style={{color: "black", width:"15px", height:"15px", cursor:"pointer", margin:"0 2px", display:"inline-block", background:"#bbb",  borderRadius:"50%" }}></span>
+              <span onMouseOver={{bg:"blue"}}   style={{color: "black", width:"15px", height:"15px", cursor:"pointer", margin:"0 2px", display:"inline-block", background:"#bbb",  borderRadius:"50%" }}></span>
+              <span onMouseOver={{bg:"blue"}} o style={{color: "black", width:"15px", height:"15px", cursor:"pointer", margin:"0 2px", display:"inline-block", background:"#bbb",  borderRadius:"50%" }}></span> */}
+            {/* </Box> */}
+            <Box w="100%" h='1000px' p={4} color="white" bg='blue'>
+            <ImageSlider w='full'h='full' bg='red' slides={SlideData} />
+            </Box>
+          </Box>
       </Stack>
     </>
   );
