@@ -1,0 +1,22 @@
+export const SlideData = [
+    {
+    image:
+    "../assets/Group114.png"
+},
+    {
+    image:
+    "../assets/Group137.png"
+},
+    {
+    image:
+    "../assets/Group138.png"
+},
+    {
+    image:
+    ""
+},
+    {
+    image:
+    ""
+}
+];
