@@ -16,11 +16,9 @@ import s31 from "../assets/s3 1.png";
 import s41 from "../assets/s4 1.png";
 import s5 from "../assets/s5.png";
 import maskimg from "../assets/maskimg.png";
-// import Group114 from "../assets/Group114.png";
-// import Group138 from "../assets/Group138.png";
-// import Group137 from "../assets/Group137.png";
-import ImageSlider from "../Components/ImageSlider"
-import { SlideData } from "../Components/SlideData";
+import Group114 from "../assets/Group114.png";
+import Group138 from "../assets/Group138.png";
+import Group137 from "../assets/Group137.png";
 
 
 const Home = () => {
@@ -161,7 +159,7 @@ const Home = () => {
             letterSpacing='inherit' color='rgba(23, 32, 72, 1)'>Categories</Heading>
           </Box>
           
-          {/* <Box>
+          <Box>
             
               <Box>
               
@@ -191,15 +189,12 @@ const Home = () => {
                 </Box>
               </Box>
             </Box>
-            <Box> */}
-              {/* <span onMouseOver={{bg:"blue"}} o style={{color: "black", width:"15px", height:"15px", cursor:"pointer", margin:"0 2px", display:"inline-block", background:"#bbb",  borderRadius:"50%" }}></span>
+            <Box>
+              <span onMouseOver={{bg:"blue"}} o style={{color: "black", width:"15px", height:"15px", cursor:"pointer", margin:"0 2px", display:"inline-block", background:"#bbb",  borderRadius:"50%" }}></span>
               <span onMouseOver={{bg:"blue"}} o style={{color: "black", width:"15px", height:"15px", cursor:"pointer", margin:"0 2px", display:"inline-block", background:"#bbb",  borderRadius:"50%" }}></span>
               <span onMouseOver={{bg:"blue"}} o style={{color: "black", width:"15px", height:"15px", cursor:"pointer", margin:"0 2px", display:"inline-block", background:"#bbb",  borderRadius:"50%" }}></span>
               <span onMouseOver={{bg:"blue"}}   style={{color: "black", width:"15px", height:"15px", cursor:"pointer", margin:"0 2px", display:"inline-block", background:"#bbb",  borderRadius:"50%" }}></span>
-              <span onMouseOver={{bg:"blue"}} o style={{color: "black", width:"15px", height:"15px", cursor:"pointer", margin:"0 2px", display:"inline-block", background:"#bbb",  borderRadius:"50%" }}></span> */}
-            {/* </Box> */}
-            <Box w="100%" h='1000px' p={4} color="white" bg='blue'>
-            <ImageSlider w='full'h='full' bg='red' slides={SlideData} />
+              <span onMouseOver={{bg:"blue"}} o style={{color: "black", width:"15px", height:"15px", cursor:"pointer", margin:"0 2px", display:"inline-block", background:"#bbb",  borderRadius:"50%" }}></span>
             </Box>
           </Box>
       </Stack>
